@@ -1,0 +1,2 @@
+sudo docker exec -it hotel_db_d bash
+psql -U postgres hotel_db  < /var/lib/postgresql/data/hotel_db_dump.sql
